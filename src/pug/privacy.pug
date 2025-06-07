@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='Política de privacidad de Infobots.org. Conoce cómo recopilamos y utilizamos tus datos cuando navegas en nuestro sitio.')
+        meta(name='author', content='Infobots.org')
+        title Infobots - Política de Privacidad
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+        include includes/css.pug
+    body.d-flex.flex-column
+        main.flex-shrink-0
+            // Navigation
+            include includes/navbar.pug
+            section.bg-light.py-5
+                .container.px-5
+                    .row.gx-5.justify-content-center
+                        .col-xxl-8
+                            .text-center.my-5
+                                h1.display-5.fw-bolder
+                                    span.text-gradient.d-inline Política de Privacidad
+                                p.lead.fw-light.mb-4 En Infobots.org respetamos tu privacidad y nos comprometemos a proteger tus datos personales.
+                                p.text-muted.mb-3 Este sitio utiliza Google Analytics y Google AdSense, servicios que pueden usar cookies para mostrar anuncios relevantes y medir el tráfico.
+                                p.text-muted.mb-3 Al continuar navegando, aceptas el uso de estas cookies. Puedes deshabilitarlas desde la configuración de tu navegador.
+                                p.text-muted.mb-3 No compartimos información personal con terceros salvo para cumplir con obligaciones legales.
+                                p.text-muted.mb-4 Si tienes dudas sobre nuestra política de privacidad, contáctanos a través de la página de contacto.
+        // Footer
+        include includes/footer.pug
+        include includes/scripts.pug
